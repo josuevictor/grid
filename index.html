@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <section>
+            <button class="btn-insert" onclick="Modal.open()">Adcionar</button>
+            <input  class="input-search" type="search" name="" id="" placeholder="Pesquisar">
+            <div class="container-table">
+                <table id="data-table">
+                    <tbody>
+                        <tr>
+                            <td>Raz.soc <span class="text-cnpj">CNPJ</span></td><td><img src="assets/xmark-solid.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Raz.soc <span class="text-cnpj">CNPJ</span></td><td><img src="assets/xmark-solid.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Raz.soc <span class="text-cnpj">CNPJ</span></td><td><img src="assets/xmark-solid.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Raz.soc <span class="text-cnpj">CNPJ</span></td><td><img src="assets/xmark-solid.svg" alt=""></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+    </main>
+    <div class="modal-overlay">
+        <div class="modal">
+                <input type="button" value="X" onclick="Modal.close()">
+            <div class="select-container">
+                <select name="" id="inputSelect"></select>
+                <button class="btn-save" >Salvar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
